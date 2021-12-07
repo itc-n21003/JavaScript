@@ -1,0 +1,34 @@
+<!Doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/jQuery-3.3.1.min.js"></script>
+    <script src="../js/Chat.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Lv.1:①見出しを作成 -->
+        <h1>ChatBot</h1>
+        <div id="chat-area" class="auto-resize">
+
+            <ul style="list-style:none;">
+            </ul>
+            <!--<ul></ul>-->
+        </div>
+        <div>
+            <footer>
+                <!-- Lv.1:➂テキストエリアを作成 -->
+                <textarea class="auto-resize" id="chat-text" cols="30" rows="1"></textarea>
+                <!-- Lv.1:➁送信ボタンを作成 -->
+                <input type="button" id="chat-btn" value=">">
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
